@@ -27,4 +27,3 @@ python -m zebra.core.generator   # M0 self-test (generate → verify unique → 
 python app.py                    # launch the Gradio app
 ```
 
-See `zebra/roadmap.md` for the full milestone plan.
