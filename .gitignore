@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Generated artifacts (datasets + fine-tuned checkpoints)
+zebra/models/
+zebra/data/artifacts/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# NOTE: markdown is intentionally NOT ignored — the HF Space needs README.md,
+# and roadmap.md is tracked documentation.

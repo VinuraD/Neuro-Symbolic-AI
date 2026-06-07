@@ -1,0 +1,13 @@
+# Neuro-Symbolic Zebra — CPU-only dependencies (pinned for HF Space reproducibility).
+
+# Symbolic core (M0) — CP-SAT solver. Required for everything.
+ortools>=9.8,<10
+
+# Neural parser/renderer (M2/M4) + training. CPU inference is sufficient.
+# On a CPU HF Space, install the CPU torch wheel:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+transformers>=4.40
+datasets>=2.18
+gradio>=4.0
+numpy>=1.26
