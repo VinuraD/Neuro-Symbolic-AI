@@ -1,13 +1,3 @@
----
-title: Neuro-Symbolic Zebra
-emoji: 🦓
-colorFrom: indigo
-colorTo: gray
-sdk: gradio
-app_file: app.py
-pinned: false
----
-
 # Neuro-Symbolic Zebra
 
 - **Solve** — natural-language clues → solved grid (parse clues → CP-SAT → solution).
@@ -16,7 +6,7 @@ pinned: false
 
 ## Architecture
 
-## Local development
+## Deploy (local)
 
 ```bash
 conda create -n nesy python=3.11 -y
